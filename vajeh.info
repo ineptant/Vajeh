@@ -1,0 +1,7 @@
+name = Va'jeh
+description = A opensource and free drupal theme by biscuit team
+package = biscuit co
+version = 1.0.0 beta
+core = 7.x
+
+stylesheets[all][] = css/style.css
