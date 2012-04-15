@@ -5,3 +5,7 @@ version = 1.0.0 beta
 core = 7.x
 
 stylesheets[all][] = css/style.css
+
+regions[header] = Header
+regions[content] = Content
+regions[sidebar_first] = Sidebar First

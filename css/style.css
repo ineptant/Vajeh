@@ -17,6 +17,73 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     background: transparent;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
 body {
     background: #eff0f0;
+}
+
+div.details {
+    margin-bottom: 5px;
+}
+
+div.node-content {
+    font-family: Nazli;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    font-family: Nazli;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+li.details {
+    border-left: 1px solid #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+ul.details {
+    background-color: #919595;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff;
+    display: inline;
+    font-family: Nazli;
+    font-size: 14px;
+    list-style-type: none;    
+    margin-bottom: 5px;
+}
+
+#content {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#page {
+    margin: auto;
+    margin-top: 200px;
+    width: 900px;
+    
+}
+
+#sidebar-first {
+    float: left;
+    overflow: hidden;
+    width: 200px;
 }
