@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 ?>
-<div class ="node-content" id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<div class ="node-content">
 
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
@@ -16,7 +16,7 @@
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>
-    <div class="details" class="meta submitted">
+    <div class="details">
         <ul class="details">
             <li class="details">
                 Date
@@ -34,7 +34,7 @@
     </div>
   <?php endif; ?>
 
-  <div class="content clearfix"<?php print $content_attributes; ?>>
+  <div>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
@@ -53,7 +53,7 @@
     $links = render($content['links']);
     if ($links):
   ?>
-    <div class="link-wrapper">
+    <div>
       <?php print $links; ?>
     </div>
   <?php endif; ?>
