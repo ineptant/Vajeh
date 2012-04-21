@@ -7,6 +7,12 @@
 ?>
 
 <div id="page">
+    <?php if ($page['header']): ?>
+        <div id="header">
+            <?php print render($page['header']); ?>
+        </div>
+    <?php endif; ?>
+    
     <?php if ($page['sidebar_first']): ?>
         <div id="sidebar-first">
             <?php print render($page['sidebar_first']); ?>

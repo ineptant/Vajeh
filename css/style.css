@@ -26,6 +26,16 @@ a:hover {
     color: white;
 }
 
+a.details {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover.details {
+    background-color: #38a2b6;
+    color: #fff;
+}
+
 body {
     background: #eff0f0;
 }
@@ -61,7 +71,6 @@ ul.details {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    color: #fff;
     display: inline;
     font-family: Nazli;
     font-size: 14px;
@@ -75,9 +84,13 @@ ul.details {
     padding-right: 10px;
 }
 
+#header {
+    height: 200px;
+    width: 900px;
+}
+
 #page {
     margin: auto;
-    margin-top: 200px;
     width: 900px;
     
 }

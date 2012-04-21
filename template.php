@@ -5,4 +5,5 @@
  * Functions that configure Va'jeh Theme.
  */
 
+
 ?>

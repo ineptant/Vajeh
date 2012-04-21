@@ -18,18 +18,26 @@
   <?php if ($display_submitted): ?>
     <div class="details">
         <ul class="details">
-            <li class="details">
-                Date
-            </li>
-            <li class="details">
-                UserName
-            </li>
-            <li class="details">
-                Comments
-            </li>
-            <li class="details">
-                Tags
-            </li>
+            <a class="details" href="#">
+                <li class="details">
+                    Date
+                </li>
+            </a>
+            <a class="details" href="#">
+                <li class="details">
+                    UserName
+                </li>
+            </a>
+            <a class="details" href="#">
+                <li class="details">
+                    Comments
+                </li>
+            </a>
+            <a class="details" href="#">
+                <li class="details">
+                    Tags
+                </li>
+            </a>
         </ul>
     </div>
   <?php endif; ?>
