@@ -9,7 +9,6 @@ require_once './sites/all/themes/vajeh/include/jdf.inc';
 
 function vajeh_preprocess_node(&$variables) {
     $variables['j_date'] = jdate('Y F j', $variables['created']);
-    kpr($variables);
 }
 
 function vajeh_preprocess_username(&$variables) {
@@ -20,14 +19,18 @@ function vajeh_preprocess_username(&$variables) {
 }
 
 function vajeh_field__field_tags($variables) {
-    
     $output = '';
-    kpr($variables);
     $links = array();
     foreach ($variables['items'] as $delta => $item) {
         $links[] = drupal_render($item);
     }
     $output .= implode(', ', $links);
+    $variables['tags'] = $output;
+    #kpr($variables);
     return $output;
+}
+
+function vajeh_field($variables) {
+    kpr($variables);
 }
 ?>

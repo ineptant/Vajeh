@@ -18,12 +18,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 a.details {
