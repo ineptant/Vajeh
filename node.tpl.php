@@ -20,15 +20,15 @@
         <ul class="details">
             <a class="details" href="#">
                 <li class="details">
-                    Date
+                    <?php print $variables['date']; ?>
                 </li>
             </a>
             <a class="details" href="#">
                 <li class="details">
-                    UserName
+                    <?php print $variables['name']; ?>
                 </li>
             </a>
-            <a class="details" href="#">
+            <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
                 <li class="details">
                     Comments
                 </li>
@@ -59,8 +59,8 @@
     }
     // Only display the wrapper div if there are links.
     $links = render($content['links']);
-    if ($links):
   ?>
+  <?php if ($links): ?>
     <div>
       <?php print $links; ?>
     </div>

@@ -18,7 +18,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -80,7 +80,6 @@ ul.details {
 
 #content {
     overflow: hidden;
-    padding-left: 10px;
     padding-right: 10px;
 }
 
@@ -96,7 +95,8 @@ ul.details {
 }
 
 #sidebar-first {
-    float: left;
+    float: right;
     overflow: hidden;
     width: 200px;
 }
+

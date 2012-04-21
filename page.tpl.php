@@ -1,8 +1,9 @@
 <?php
 /*
  * Regions:
+ * - $page['header']: The header of the page.
  * - $page['content']: The main content of the current page.
- * - $page['sidebar_first']: Items for the first sidebar.s
+ * - $page['sidebar_first']: Items for the first sidebar.
  */
 ?>
 
@@ -18,7 +19,6 @@
             <?php print render($page['sidebar_first']); ?>
         </div>
     <?php endif; ?>
-    
     <div id="content">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -39,6 +39,5 @@
         </ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-      <?php print $feed_icons; ?>
     </div>
 </div>
