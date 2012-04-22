@@ -16,6 +16,7 @@ function vajeh_preprocess_username(&$variables) {
     if (isset($account->field_real_name[LANGUAGE_NONE]['0']['safe_value'])) {
         $variables['name'] = $account->field_real_name[LANGUAGE_NONE]['0']['safe_value'];
     }
+    #kpr($variables);
 }
 
 function vajeh_field__field_tags($variables) {
@@ -25,12 +26,9 @@ function vajeh_field__field_tags($variables) {
         $links[] = drupal_render($item);
     }
     $output .= implode(', ', $links);
-    $variables['tags'] = $output;
+    $variables['tags'] = "$output";
     #kpr($variables);
     return $output;
 }
 
-function vajeh_field($variables) {
-    kpr($variables);
-}
 ?>

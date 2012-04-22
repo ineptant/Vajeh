@@ -7,37 +7,35 @@
 ?>
 <div class ="node-content">
 
-  <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
     <h2>
       <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
     </h2>
   <?php endif; ?>
-  <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>
     <div class="details">
         <ul class="details">
-            <a class="details" href="#">
-                <li class="details">
+            <li class="details">
+                <a class="details" href="#">
                     <?php print $variables['date']; ?>
-                </li>
-            </a>
-            <a class="details" href="#">
-                <li class="details">
-                    <?php print $variables['name']; ?>
-                </li>
-            </a>
-            <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
-                <li class="details">
+                </a>
+            </li>
+            <span class="username">
+               <li class="details">
+                  <?php print $variables['name']; ?>
+               </li>
+            </span>
+            <li class="details">
+                <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
                     Comments
-                </li>
-            </a>
-            <a class="details" href="#">
-                <li class="details">
+                </a>
+            </li>
+            <li class="details">
+                <a class="details" href="#">
                     Tags
-                </li>
-            </a>
+                </a>
+            </li>
         </ul>
     </div>
   <?php endif; ?>
