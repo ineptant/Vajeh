@@ -14,7 +14,7 @@
   <?php endif; ?>
 
   <?php if ($display_submitted): ?>
-    <div class="details">
+    <span class="details">
         <ul class="details">
             <li class="details">
                 <a class="details" href="#">
@@ -22,9 +22,9 @@
                 </a>
             </li>
             <span class="username">
-               <li class="details">
-                  <?php print $variables['name']; ?>
-               </li>
+                <li class="details">
+                    <?php print $variables['name']; ?>
+                </li>
             </span>
             <li class="details">
                 <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
@@ -37,7 +37,7 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </span>
   <?php endif; ?>
 
   <div>
