@@ -55,6 +55,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+header#header {
+    height: 200px;
+    width: 900px;
+}
+
 li.details {
     border-left: 1px solid #eff0f0;
     color: white;
