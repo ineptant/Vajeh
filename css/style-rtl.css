@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Nazli;
+    src: url("../fonts/Nazli.woff") format("woff");
+}
+
+body {
+    font-family: Nazli;
+}
