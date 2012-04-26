@@ -22,26 +22,26 @@
             <span class="details_date">
                 <li class="details">
                     <a class="details" href="#">
-                        <?php print $variables['date']; ?>
+                        <?php print $date; ?>
                     </a>
                 </li>
             </span>
             <span class="details">
                 <li class="details">
-                    <?php print $variables['name']; ?>
+                    <?php print $name;?>
                 </li>
             </span>
             <span class="details">
                 <li class="details">
-                    <a class="details" href="/node/<?php print $variables['nid'];?>#comment-form">
-                        Comments
+                    <a class="details" href="<?php print $node_url;?>#comment-form">
+                        <?php print t('Commentes'); ?>
                     </a>
                 </li>
             </span>
             <span class="details_tag">
                 <li class="details">
                     <a class="details" href="#">
-                        <?php print $tags; ?>
+                        <?php print t('Tags'); ?>
                     </a>
                 </li>
             </span>

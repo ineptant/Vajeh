@@ -17,91 +17,42 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     background: transparent;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a.details {
-    color: white;
-    text-decoration: none;
-}
-
-article.node-content {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-aside#sidebar-first {
-    float: right;
-    overflow: hidden;
-    width: 200px;
-}
+/**
+ * Generic tags style
+ */
 
 body {
     background: #eff0f0;
+    color: #333;
     font: normal normal normal 100%  Georgia, Times, "Times New Roman", serif;
 }
 
-div.details {
-    margin-bottom: 5px;
+a:link,
+a:visited {
+    color: #555;
+    text-decoration: none;
 }
 
-h2 {
-    color: black;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-header#header {
-    height: 200px;
-    width: 900px;
-}
-
-li.details {
-    border-left: 1px solid #eff0f0;
-    color: white;
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-span.details:hover {
-    background-color: #38a2b6;
-    color: white;
-}
-
-span.details_date:hover {
-    background-color: #38a2b6;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    color: white;
-}
-
-span.details_tag:hover {
-    background-color: #38a2b6;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    color: white;
-}
 
 section#main {
     margin: auto;
     width: 900px;
-    
 }
 
-section#content {
-    overflow: hidden;
-    padding-right: 10px;
+/**
+ * Generic Sidebar style
+ */
+
+aside {
+    float: right;
+    width: 200px;
 }
 
-ul.details {
-    background-color: #919595;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    color: white;
-    display: inline;
-    list-style-type: none;
-}
+/**
+ * Generic Content style
+ */
+
+ section#content {
+     float: left;
+     width: 700px;
+ }
