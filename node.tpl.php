@@ -19,7 +19,7 @@
         <span class="submission">
         
         <ul class="details">
-            <span class="details">
+            <span class="details_date">
                 <li class="details">
                     <a class="details" href="#">
                         <?php print $variables['date']; ?>
@@ -38,7 +38,7 @@
                     </a>
                 </li>
             </span>
-            <span class="details">
+            <span class="details_tag">
                 <li class="details">
                     <a class="details" href="#">
                         Tags
