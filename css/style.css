@@ -28,7 +28,6 @@ a.details {
 }
 
 article.node-content {
-    font-size: 1.000em;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -41,7 +40,7 @@ aside#sidebar-first {
 
 body {
     background: #eff0f0;
-    font: normal normal normal Georgia, Times, "Times New Roman", serif;
+    font: normal normal normal 100%  Georgia, Times, "Times New Roman", serif;
 }
 
 div.details {
@@ -50,7 +49,6 @@ div.details {
 
 h2 {
     color: black;
-    font-size: 1.125em;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -91,6 +89,5 @@ ul.details {
     -webkit-border-radius: 5px;
     color: white;
     display: inline;
-    font-size: 0.875em;
     list-style-type: none;
 }
