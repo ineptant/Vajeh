@@ -14,30 +14,42 @@
   <?php endif; ?>
 
   <?php if ($display_submitted): ?>
-    <span class="details">
+    <div class="details">
+        
+        <span class="submission">
+        
         <ul class="details">
-            <li class="details">
-                <a class="details" href="#">
-                    <?php print $variables['date']; ?>
-                </a>
-            </li>
-            <span class="username">
+            <span class="details">
+                <li class="details">
+                    <a class="details" href="#">
+                        <?php print $variables['date']; ?>
+                    </a>
+                </li>
+            </span>
+            <span class="details">
                 <li class="details">
                     <?php print $variables['name']; ?>
                 </li>
             </span>
-            <li class="details">
-                <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
-                    Comments
-                </a>
-            </li>
-            <li class="details">
-                <a class="details" href="#">
-                    Tags
-                </a>
-            </li>
+            <span class="details">
+                <li class="details">
+                    <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
+                        Comments
+                    </a>
+                </li>
+            </span>
+            <span class="details">
+                <li class="details">
+                    <a class="details" href="#">
+                        Tags
+                    </a>
+                </li>
+            </span>
         </ul>
-    </span>
+        
+        </span>
+        
+    </div>
   <?php endif; ?>
 
   <div>
