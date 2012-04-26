@@ -6,3 +6,26 @@
 body {
     font-family: Nazli;
 }
+
+/**
+ * Generic Content style
+ */
+
+
+ 
+    /**
+    * Node Menu style
+    */
+    
+    .details_tag a {
+                border-radius: 3px 0px 0px 3px;
+           -moz-border-radius: 3px 0px 0px 3px;
+        -webkit-border-radius: 3px 0px 0px 3px;
+    }
+
+    .details_date a {
+                border-radius: 0px 3px 3px 0px;
+           -moz-border-radius: 0px 3px 3px 0px;
+        -webkit-border-radius: 0px 3px 3px 0px;
+    }
+

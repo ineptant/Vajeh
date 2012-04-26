@@ -33,12 +33,24 @@ a:visited {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 1.5em;
+}
 
 section#main {
     margin: auto;
     width: 900px;
 }
 
+/**
+ * Generic Header style
+ */
+ 
+ header {
+    width: 900px; 
+    height: 200px;
+ }
+ 
 /**
  * Generic Sidebar style
  */
@@ -65,6 +77,10 @@ aside {
         display: inline-block;
     }
     
+    ul.details-list {
+        font-size: 80%;
+    }
+    
     ul.details-list  a:link {
         color: #fff;
     }
@@ -79,16 +95,13 @@ aside {
         background: #38a2b6;
     }
     
-
     .details_date a {
                 border-radius: 3px 0px 0px 3px;
            -moz-border-radius: 3px 0px 0px 3px;
         -webkit-border-radius: 3px 0px 0px 3px;
     }
-    
 
     .details_tag a {
-
                 border-radius: 0px 3px 3px 0px;
            -moz-border-radius: 0px 3px 3px 0px;
         -webkit-border-radius: 0px 3px 3px 0px;
