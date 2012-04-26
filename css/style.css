@@ -29,6 +29,7 @@ a.details {
 
 body {
     background: #eff0f0;
+    font: normal normal normal Georgia, Times, "Times New Roman", serif;
 }
 
 div.details {
@@ -63,7 +64,6 @@ ul.details {
     -webkit-border-radius: 5px;
     color: white;
     display: inline;
-    font-family: Nazli;
     font-size: 14px;
     list-style-type: none;
 }
