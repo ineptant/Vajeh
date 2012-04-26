@@ -62,11 +62,15 @@ aside {
     */
     
     ul.details-list  li {
-        background: #919595;
         display: inline-block;
     }
     
+    ul.details-list  a:link {
+        color: #fff;
+    }
+    
     ul.details-list  a {
+        background: #919595;
         display: block;
         padding: 3px 5px;
     }
@@ -75,16 +79,17 @@ aside {
         background: #38a2b6;
     }
     
+
     .details_date a {
                 border-radius: 3px 0px 0px 3px;
            -moz-border-radius: 3px 0px 0px 3px;
         -webkit-border-radius: 3px 0px 0px 3px;
     }
     
+
     .details_tag a {
+
                 border-radius: 0px 3px 3px 0px;
            -moz-border-radius: 0px 3px 3px 0px;
         -webkit-border-radius: 0px 3px 3px 0px;
     }
-    
-    

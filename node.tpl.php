@@ -20,20 +20,20 @@
         
         <ul class="details-list">
             <li class="details_date">
-                <a class="details-link" href="#">
+                <a href="#">
                     <?php print $date; ?>
                 </a>
             </li>
-            <li class="details">
+            <li>
                 <?php print $name;?>
             </li>
-            <li class="details">
-                <a class="details-link" href="<?php print $node_url;?>#comment-form">
+            <li>
+                <a href="<?php print $node_url;?>#comment-form">
                     <?php print t('Commentes'); ?>
                 </a>
             </li>
             <li class="details_tag">
-                <a class="details-link" href="#">
+                <a href="#">
                     <?php print t('Tags'); ?>
                 </a>
             </li>
