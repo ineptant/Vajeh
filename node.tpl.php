@@ -33,7 +33,7 @@
             </span>
             <span class="details">
                 <li class="details">
-                    <a class="details" href="/comment/reply/<?php print $variables['nid'];?>#comment-form">
+                    <a class="details" href="/node/<?php print $variables['nid'];?>#comment-form">
                         Comments
                     </a>
                 </li>
