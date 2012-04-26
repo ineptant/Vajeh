@@ -27,6 +27,18 @@ a.details {
     text-decoration: none;
 }
 
+article.node-content {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+aside#sidebar-first {
+    float: right;
+    overflow: hidden;
+    width: 200px;
+}
+
 body {
     background: #eff0f0;
     font: normal normal normal Georgia, Times, "Times New Roman", serif;
@@ -34,12 +46,6 @@ body {
 
 div.details {
     margin-bottom: 5px;
-}
-
-div.node-content {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -57,6 +63,27 @@ li.details {
     padding-right: 8px;
 }
 
+header#header {
+    height: 200px;
+    width: 900px;
+}
+
+span.details:hover {
+    background-color: #38a2b6;
+    color: white;
+}
+
+section#main {
+    margin: auto;
+    width: 900px;
+    
+}
+
+section#content {
+    overflow: hidden;
+    padding-right: 10px;
+}
+
 ul.details {
     background-color: #919595;
     border-radius: 5px;
@@ -66,31 +93,4 @@ ul.details {
     display: inline;
     font-size: 14px;
     list-style-type: none;
-}
-
-span.details:hover {
-    background-color: #38a2b6;
-    color: white;
-}
-
-#content {
-    overflow: hidden;
-    padding-right: 10px;
-}
-
-#header {
-    height: 200px;
-    width: 900px;
-}
-
-#page {
-    margin: auto;
-    width: 900px;
-    
-}
-
-#sidebar-first {
-    float: right;
-    overflow: hidden;
-    width: 200px;
 }

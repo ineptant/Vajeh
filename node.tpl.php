@@ -5,7 +5,7 @@
  * and open the template in the editor.
  */
 ?>
-<div class ="node-content">
+<article class ="node-content">
 
   <?php if (!$page): ?>
     <h2>
@@ -78,4 +78,4 @@
 
   <?php print render($content['comments']); ?>
 
-</div>
+</article>

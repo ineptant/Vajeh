@@ -7,19 +7,19 @@
  */
 ?>
 
-<div id="page">
+<section id="main">
     <?php if ($page['header']): ?>
-        <div id="header">
+        <header id="header">
             <?php print render($page['header']); ?>
-        </div>
+        </header>
     <?php endif; ?>
     
     <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first">
+        <aside id="sidebar-first">
             <?php print render($page['sidebar_first']); ?>
-        </div>
+        </aside>
     <?php endif; ?>
-    <div id="content">
+    <section id="content">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1>
@@ -39,5 +39,5 @@
         </ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
-    </div>
-</div>
+    </section>
+</section>
