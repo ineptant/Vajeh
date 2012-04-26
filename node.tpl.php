@@ -41,7 +41,7 @@
             <span class="details_tag">
                 <li class="details">
                     <a class="details" href="#">
-                        Tags
+                        <?php print $tags; ?>
                     </a>
                 </li>
             </span>
