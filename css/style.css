@@ -56,3 +56,35 @@ aside {
      float: left;
      width: 700px;
  }
+ 
+    /**
+    * Node Menu style
+    */
+    
+    ul.details-list  li {
+        background: #919595;
+        display: inline-block;
+    }
+    
+    ul.details-list  a {
+        display: block;
+        padding: 3px 5px;
+    }
+    
+    ul.details-list  a:hover {
+        background: #38a2b6;
+    }
+    
+    .details_date a:link {
+                border-radius: 3px 0px 0px 3px;
+           -moz-border-radius: 3px 0px 0px 3px;
+        -webkit-border-radius: 3px 0px 0px 3px;
+    }
+    
+    .details_tag a:link {
+                border-radius: 0px 3px 3px 0px;
+           -moz-border-radius: 0px 3px 3px 0px;
+        -webkit-border-radius: 0px 3px 3px 0px;
+    }
+    
+    
