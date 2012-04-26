@@ -9,6 +9,7 @@ require_once './sites/all/themes/vajeh/include/jdf.inc';
 
 function vajeh_preprocess_node(&$variables) {
     $variables['j_date'] = jdate('Y F j', $variables['created']);
+    kpr($variables);
 }
 
 function vajeh_preprocess_username(&$variables) {
