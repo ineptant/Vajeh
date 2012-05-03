@@ -7,6 +7,12 @@ body {
     font-family: Nazli;
 }
 
+a:link,
+a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
 /**
  * Generic Content style
  */

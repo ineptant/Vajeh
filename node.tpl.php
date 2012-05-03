@@ -21,7 +21,14 @@
         <ul class="details-list">
             <li class="details_date">
                 <a href="#">
-                    <?php print $date; ?>
+                    <?php
+                        if ($variables['elements']['#language'] == 'en') {
+                            print $date;
+                        }
+                        else if ($variables['elements']['#language'] == 'fa') {
+                            Print 'J_date';
+                        }
+                    ?>
                 </a>
             </li>
             <li>
