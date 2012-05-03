@@ -11,7 +11,7 @@
     <?php if ($page['header']): ?>
         <header id="header">
             <div id="site_name">
-                <h1><?php print $site_name; ?></h1>
+                <h1><a href="<?php print $front_page; ?>"><?php print $site_name; ?></a></h1>
             </div>
             <div id="site_slogan">
                 <h3><?php print $site_slogan; ?></h3>
@@ -27,9 +27,9 @@
     <section id="content">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
-        <h1>
+        <h2>
           <?php print $title; ?>
-        </h1>
+        </h2>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?>
