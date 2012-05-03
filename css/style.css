@@ -29,13 +29,29 @@ body {
 
 a:link,
 a:visited {
-    color: #555;
+    color: #38a2b6;
     text-decoration: none;
+}
+
+h1 {
+    font-size: 1.6em;
 }
 
 h2 {
     font-size: 1.5em;
 }
+
+h2 a:link,
+H2 a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+/**
+ * Generic Form style
+ */
+
+
 
 section#main {
     margin: auto;
@@ -47,6 +63,7 @@ section#main {
  */
  
  header {
+    text-align: center;
     width: 900px; 
     height: 200px;
  }
@@ -96,13 +113,20 @@ aside {
     }
     
     .details_date a {
-                border-radius: 3px 0px 0px 3px;
-           -moz-border-radius: 3px 0px 0px 3px;
         -webkit-border-radius: 3px 0px 0px 3px;
+           -moz-border-radius: 3px 0px 0px 3px;
+                border-radius: 3px 0px 0px 3px;
     }
 
     .details_tag a {
-                border-radius: 0px 3px 3px 0px;
-           -moz-border-radius: 0px 3px 3px 0px;
         -webkit-border-radius: 0px 3px 3px 0px;
+           -moz-border-radius: 0px 3px 3px 0px;
+                border-radius: 0px 3px 3px 0px;
     }
+
+.region-title td,
+th { /* Tables header style */
+    background: #ccc;
+    font-weight: bold;
+    text-indent: 10px;
+}

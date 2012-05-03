@@ -10,7 +10,12 @@
 <section id="main">
     <?php if ($page['header']): ?>
         <header id="header">
-            <?php print render($page['header']); ?>
+            <div id="site_name">
+                <h1><?php print $site_name; ?></h1>
+            </div>
+            <div id="site_slogan">
+                <h3><?php print $site_slogan; ?></h3>
+            </div>
         </header>
     <?php endif; ?>
     
