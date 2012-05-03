@@ -29,7 +29,7 @@
             </li>
             <li>
                 <a href="<?php print $node_url;?>#comment-form">
-                    <?php print t('Commentes'); ?>
+                    <?php print t('Comments'); ?>
                 </a>
             </li>
             <li class="details_tag">
