@@ -13,6 +13,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     outline: 0;
     list-style: none;
     font-size: 100%;
+    font-weight: normal;
     vertical-align: baseline;
     background: transparent;
 }
@@ -74,7 +75,8 @@ section#main {
 
 aside {
     float: right;
-    width: 200px;
+    padding-left: 20px;
+    width: 180px;
 }
 
 /**
@@ -98,17 +100,21 @@ aside {
         font-size: 80%;
     }
     
-    ul.details-list  a:link {
+    ul.details-list  a:link,
+    ul.details-list  a:visited,
+    ul.details-list span {
         color: #fff;
     }
     
-    ul.details-list  a {
+    ul.details-list  a,
+    ul.details-list span {
         background: #919595;
         display: block;
-        padding: 2px 5px;
+        padding: 0px 5px;
     }
     
-    ul.details-list  a:hover {
+    ul.details-list  a:hover,
+    ul.details-list span:hover {
         background: #38a2b6;
     }
     
@@ -127,6 +133,5 @@ aside {
 .region-title td,
 th { /* Tables header style */
     background: #ccc;
-    font-weight: bold;
     text-indent: 10px;
 }
