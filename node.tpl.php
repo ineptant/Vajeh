@@ -67,7 +67,6 @@
       <?php print $links; ?>
     </div>
   <?php endif; ?>
-
   <?php print render($content['comments']); ?>
 
 </article>
