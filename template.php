@@ -1,14 +1,12 @@
 <?php
 
-require_once './sites/all/themes/vajeh/include/jdf.inc';
-
 /**
  * @file
  * Functions that configure Va'jeh Theme.
  */
 
 function vajeh_preprocess_node(&$variables) {
-    $variables['j_date'] = jdate('Y F j', $variables['created']);
+    
 }
 
 function vajeh_preprocess_username(&$variables) {
