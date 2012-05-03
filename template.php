@@ -10,7 +10,7 @@ function vajeh_preprocess_node(&$variables) {
 }
 
 function vajeh_preprocess_page(&$variables) {
-    kpr($variables);
+
 }
 
 function vajeh_preprocess_username(&$variables) {

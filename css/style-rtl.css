@@ -14,8 +14,24 @@ a:visited {
 }
 
 /**
+ * Generic Sidebar style
+ */
+
+aside {
+    float: left;
+    padding-left: 0px;
+    padding-right: 20px;
+    width: 180px;
+}
+
+/**
  * Generic Content style
  */
+
+ section#content {
+     float: right;
+     width: 700px;
+ }
 
 
  
