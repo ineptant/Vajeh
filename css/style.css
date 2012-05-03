@@ -33,6 +33,10 @@ a:visited {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 1.6em;
+}
+
 h2 {
     font-size: 1.5em;
 }
@@ -42,6 +46,12 @@ H2 a:visited {
     color: #555;
     text-decoration: none;
 }
+
+/**
+ * Generic Form style
+ */
+
+
 
 section#main {
     margin: auto;
@@ -53,6 +63,7 @@ section#main {
  */
  
  header {
+    text-align: center;
     width: 900px; 
     height: 200px;
  }
@@ -113,7 +124,8 @@ aside {
                 border-radius: 0px 3px 3px 0px;
     }
 
-.region-title td {
+.region-title td,
+th { /* Tables header style */
     background: #ccc;
     font-weight: bold;
     text-indent: 10px;

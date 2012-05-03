@@ -9,6 +9,10 @@ function vajeh_preprocess_node(&$variables) {
     
 }
 
+function vajeh_preprocess_page(&$variables) {
+    kpr($variables);
+}
+
 function vajeh_preprocess_username(&$variables) {
     $account = user_load($variables['account']->uid);
     if (isset($account->field_real_name[LANGUAGE_NONE]['0']['safe_value'])) {
