@@ -58,6 +58,7 @@
     // form is being displayed on the same page.
     if ($teaser || !empty($content['comments']['comment_form'])) {
       unset($content['links']['comment']['#links']['comment-add']);
+      unset($content['links']['comment']['#links']['comment-comments']);
     }
     // Only display the wrapper div if there are links.
     $links = render($content['links']);
